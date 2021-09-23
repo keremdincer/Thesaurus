@@ -1,6 +1,7 @@
 # Thesaurus
 
-I have tried to use Onion Architecture in this project to achieve separation of converns pattern.
+I have tried to use Onion Architecture in this project to achieve separation of converns pattern. My goal was to complete all 3 features.
+But due to the lack of time I got, I could not provide test coverage for the project.
 
 ### Thesaurus Library
 `Core`, `Infrastructure`
