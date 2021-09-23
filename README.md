@@ -12,6 +12,7 @@ I used `EntityFramework Core` for ORM. I used InMemoryDatabase to make testing t
 - [x] Users are able to add a word with synonymity.
 - [x] Users are able to get synonyms for a specific word.
 - [x] Users are able to list all the words in thesaurus.
+- [x] Library only allows lowercase keywords to be saved. (It saves all given words with their lowercase forms)
 - [x] Library prevents creating duplicate word records. Instead it connects the existing ones with the new ones that are provided. For example:
       
       add("fast", ["rapid", "quick"])
