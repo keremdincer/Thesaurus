@@ -39,11 +39,11 @@ namespace Core.Services
         public Word CreateOrGet(string word)
         {
             Word keyword;
-            var existing = wordRepository.Search(word).ToList();
+            var existing = wordRepository.Search(word.ToLower()).ToList();
             if (existing.Count > 0)
                 keyword = existing[0];
             else
-                keyword = wordRepository.Create(new Word(word));
+                keyword = wordRepository.Create(new Word(word.ToLower()));
 
             return keyword;
         }
